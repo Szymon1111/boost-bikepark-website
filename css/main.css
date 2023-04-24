@@ -25,7 +25,7 @@ a{
 }
 
 .section{
-  width: clamp(600px, 1600px, 100vw);
+  width: clamp(600px, 1600px, 80vw);
   min-height: 100vh;
   padding: 60px 40px;
   margin: auto;
@@ -39,6 +39,7 @@ a{
 
   color: black;
   font-family: Main-title;
+  max-width: 80vw;
   font-size: 120px;
   font-weight: 400;
   text-shadow: 
@@ -62,17 +63,26 @@ a{
 }
 
 .section__image{
-  max-width: 800px;
+  max-width: clamp(100px, 800px, 80vw);
 }
 
 .section__content{
   display: flex;
   gap: 60px;
+  flex-wrap: wrap;
 }
 
 .accent-color{
   color: #0e5c1a;
 }
+
+@media screen and (max-width: 500px) {
+  .section__title{
+    font-size: 50px;
+    text-align: left !important;
+  }
+}
+
 
 .flex-column-left{
   display: flex;
