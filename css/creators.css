@@ -10,7 +10,6 @@
 .creator-card{
 
   width: 100%;
-  max-width: 80vw;
   height: fit-content;
   padding: 45px;
   border-radius: 15px;
@@ -18,7 +17,6 @@
   display: flex;
   flex-direction: row;
   gap: 35px;
-  flex-wrap: wrap;
 
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -34,7 +32,7 @@
   border-radius: 25px;
 }
 
-.creators-section__content{
+.creator-card__content{
   text-align: justify;
   display: flex;
   flex-direction: column;

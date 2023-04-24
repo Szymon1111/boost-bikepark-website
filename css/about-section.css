@@ -3,7 +3,7 @@
 }
 
 .about-section-paragraph{
-  width: clamp(100px, 600px, 80vw);
+  max-width: 600px;
   text-align: justify;
 }
 
