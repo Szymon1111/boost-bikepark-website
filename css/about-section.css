@@ -1,0 +1,17 @@
+.about-section{
+  display: flex;
+}
+
+.about-section-paragraph{
+  max-width: 600px;
+  text-align: justify;
+}
+
+.about-section .section__content{
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-section__title{
+  text-align: right;
+}

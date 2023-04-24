@@ -1,0 +1,47 @@
+.creators-section{
+  display: flex;
+  align-items: flex-start;
+}
+
+.creators-section__title{
+  text-align: left;
+}
+
+.creator-card{
+
+  width: 100%;
+  height: fit-content;
+  padding: 45px;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.creator-card__header{
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.creator-card__image{
+  width: 400px;
+  height: fit-content;
+  border-radius: 25px;
+}
+
+.creator-card__content{
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.creator-insta{
+  font-weight: 700;
+  display: flex;
+  gap: 5px;
+}
